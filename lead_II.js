@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
   //Connect to socket.io server
-  var socket = io("ws://localhost:9000", { transports: ["websocket"] });
+  var socket = io("ws://192.168.1.16:9000", { transports: ["websocket"] });
 
   //Get canvas context
   var canvas = document.getElementById("lead_II");
